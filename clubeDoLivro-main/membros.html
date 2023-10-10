@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="membros.css">
+    <link rel="stylesheet" href="headerFooter.css">
+    
+    <title>Clube do Livro - Membros</title>
+</head>
+
+<body>
+  <header>
+    <section class="login"><a href="/login.html"><ion-icon name="person-circle-outline"></ion-icon>Entre ou<br>Cadastre-se</a></section>
+    <h1><img src="imagens/logoClubeDoLivro.png"alt="Logo de Clube do Livro" width="200"></h1>
+    <nav>
+      <ul>
+          <li><a href="home.3.html">Home</a></li>
+          <li><a  href="membros.html">Membros</a></li>
+          <li><a href="index.html">Trocas/Vendas</a></li>
+          <li><a href="encontros.html">Encontros</a></li>
+          <li><a href="discussao.html">Fórum de Discussão</a></li>
+          
+      </ul>
+  </nav>
+
+</header>
+
+
+<h1>Apresente-se na Nossa Comunidade de Leitores</h1>
+<div class="intro-text">Bem-vindo à página de membros do Clube do Livro, o lugar onde nossa incrível comunidade de leitores se conecta e compartilha sua paixão pela leitura! Aqui, você pode se apresentar e fazer parte deste mundo literário vibrante. Veja o que você pode fazer nesta página:
+
+<ol>
+    <li><strong>Apresente-se com Estilo:</strong> Compartilhe um pouco mais sobre você em nossos elegantes cards de perfil. Mostre seu rosto e liste seus gêneros literários preferidos para que os outros membros possam conhecê-lo melhor.</li>
+    <li><strong>Fotos e Gêneros Literários:</strong> Nossos cards de perfil são organizados para destacar sua foto e seus gostos literários. Eles fornecem uma maneira fácil e atraente de apresentar quem você é e o que você ama ler.</li>
+    <li><strong>Conexões Literárias:</strong> Quer compartilhar ainda mais sobre suas aventuras literárias? Oferecemos a opção de vincular seus perfis literários nas redes sociais, para que você possa se conectar com outros leitores e explorar suas recomendações e resenhas.</li>
+    <li><strong>Junte-se à Comunidade:</strong> Se você ainda não é membro, não se preocupe! Você pode se cadastrar em apenas alguns passos e começar a interagir com nossa comunidade apaixonada pela leitura. Sua jornada literária começa <a href="login.html">aqui</a>!</li>
+    <li><strong>Descubra Novos Amigos Literários:</strong> Explore os perfis dos outros membros, encontre pessoas com gostos literários semelhantes e faça novas amizades que compartilham sua paixão por livros. Juntos, vamos descobrir e discutir novos mundos através das palavras!</li>
+</ol>
+Esta é a sua chance de brilhar e compartilhar sua paixão pela leitura. Não se acanhe, estamos ansiosos para conhecer vocês e descobrir mais sobre seus gêneros literários preferidos, suas histórias favoritas e as aventuras que os livros os levaram. Sinta-se à vontade para preencher o formulário abaixo e se apresentar para a nossa incrível comunidade de leitores. Juntos, vamos criar um espaço onde a magia das palavras nos conecta e nos inspira.
+</div>
+
+          
+    <form>
+        <h2 class="subtitle">Sinta-se à vontade para preencher o formulário abaixo e se apresentar para a nossa incrível comunidade de leitores. </h2>
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="foto">Foto:</label>
+        <input type="file" id="foto" name="foto" accept="image/*"><br>
+
+        <label for="generos">Gêneros Literários Preferidos:</label>
+        <input type="text" id="generos" name="generos" required><br>
+
+        <label for="twitter">Link do Twitter:</label>
+        <input type="text" id="twitter" name="twitter"><br>
+
+        <label for="tumblr">Link do instagram:</label>
+        <input type="text" id="instagram" name="instagram"><br>
+
+        <label for="facebook">Link do Facebook:</label>
+        <input type="text" id="facebook" name="facebook"><br>
+
+        <label for="apresentacao">Apresentação:</label><br>
+        <textarea id="apresentacao" name="apresentacao" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    
+
+<div class="member-card" id="member-card">
+    <img id="member-photo" src="foto1.jpg" alt="Membro 1">
+    <h2>Nome do Membro 1</h2>
+    <p>Gêneros Literários Preferidos: Romance, Mistério</p>
+    <div class="social-links">
+        <a href="https://www.facebook.com/membro1" target="_blank">Facebook</a>
+        <a href="https://twitter.com/membro1" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/membro1" target="_blank">Instagram</a>
+    </div>
+    <p>Apresentação: Aqui está uma breve descrição do Membro .</p>
+</div>
+
+
+<div class="member-card">
+    <img src="foto2.jpg" alt="Membro 2">
+    <h2>Nome do Membro 2</h2>
+    <p>Gêneros Literários Preferidos: Fantasia, Ficção Científica</p>
+    <div class="social-links">
+        <a href="https://www.facebook.com/membro1" target="_blank">Facebook</a>
+        <a href="https://twitter.com/membro1" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/membro1" target="_blank">Instagram</a>
+    </div>
+    <p>Apresentação: Aqui está uma breve descrição do Membro 2.</p>
+</div>
+
+<div class="member-card">
+    <img src="foto2.jpg" alt="Membro 3">
+    <h2>Nome do Membro 2</h2>
+    <p>Gêneros Literários Preferidos: Fantasia, Ficção Científica</p>
+    <div class="social-links">
+        <a href="https://www.facebook.com/membro1" target="_blank">Facebook</a>
+        <a href="https://twitter.com/membro1" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/membro1" target="_blank">Instagram</a>
+    </div>
+    <p>Apresentação: Aqui está uma breve descrição do Membro 3.</p>
+</div>
+
+    
+<!-- Adicione mais membros conforme necessário -->
+
+
+
+    <footer class="footer">
+      <a href="https://github.com/nayaraosorio/clubeDoLivro"><ion-icon name="logo-github"></ion-icon></a> 
+       <ion-icon name="logo-instagram"></ion-icon>
+       <ion-icon name="logo-tumblr"></ion-icon>
+       <ion-icon name="logo-facebook"></ion-icon>
+       <p>&copy; 2023 Clube do Livro</p>
+  </footer>
+</body>
+
+</html>

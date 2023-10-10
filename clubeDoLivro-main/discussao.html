@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+<link rel="stylesheet" href="discussao.css">
+
+<link rel="stylesheet" href="headerFooter.css">
+
+<title>Clube do Livro - Fórum de Discussão</title>
+
+</head>
+
+<body>
+
+<header>
+
+<section class="login"><a href="/login.html"><ion-icon name="person-circle-outline"></ion-icon>Entre ou<br>Cadastre-se</a></section>
+
+<h1><img src="imagens/logoClubeDoLivro.png"alt="Logo de Clube do Livro"></h1>
+
+<nav>
+
+<ul>
+
+<li><a href="home.3.html">Home</a></li>
+
+<li><a href="membros.html">Membros</a></li>
+
+<li><a href="index.html">Trocas/Vendas</a></li>
+
+<li><a href="encontros.html">Encontros</a></li>
+
+<li><a href="discussao.html">Fórum de Discussão</a></li>
+
+</ul>
+
+</nav>
+
+  
+
+</header>
+
+<main class="content">
+
+<figure>
+
+<img id="forum" src="/imagens/discussao.jpg">
+
+</figure>
+
+<section>
+
+<h2>Destaques do Mês</h2>
+
+<!-- Cards contendo os livros do Mês -->
+
+<div class="card">
+
+<img>
+
+<h3>Título Livro</h3>
+
+<p>Breve Descrição</p>
+
+</div>
+
+<div class="card">
+
+<img>
+
+<h3>Título Livro 2</h3>
+
+<p>Breve Descrição</p>
+
+</div>
+
+</section>
+
+<section>
+
+<!-- Ficarão os conteúdos das postagens -->
+
+<h2>Título do Tópico</h2>
+
+  
+
+<div>
+
+<p>Conteúdo Postagem 1</p>
+
+<p>Conteúdo Postagem 2</p>
+
+</div>
+
+  
+
+<form>
+
+<!-- formulário para comentar sobre o livro -->
+
+<label for="livro">Livro:</label>
+
+<select id="livro" name="livro" required>
+
+<option value="" disabled selected>Selecione um livro</option>
+
+<option value="Livro 1">Livro 1</option>
+
+<option value="Livro 2">Livro 2</option>
+
+</select><br><br>
+
+<label for="pagina">Página:</label>
+
+<input type="number" id="pagina" name="pagina" required><br><br>
+
+<label for="comentario">Comentário:</label><br>
+
+<textarea id="comentario" name="comentario" rows="4" cols="50" required></textarea><br><br>
+
+<input type="submit" value="Enviar Comentário">
+
+</form>
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+<a href="https://github.com/nayaraosorio/clubeDoLivro"><ion-icon name="logo-github"></ion-icon></a>
+
+<ion-icon name="logo-instagram"></ion-icon>
+
+<ion-icon name="logo-tumblr"></ion-icon>
+
+<ion-icon name="logo-facebook"></ion-icon>
+
+<p>&copy; 2023 Clube do Livro</p>
+
+</footer>
+
+</body>
+
+</html>

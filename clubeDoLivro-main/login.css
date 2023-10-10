@@ -1,0 +1,131 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: #f3bda9;
+}
+
+.form-container {
+
+    display: flex;
+    
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    width: 100%;
+    
+    max-width: 800px;
+    
+    }
+    
+      
+    
+    #form-login, #form-membros {
+    
+    background: #fff;
+    
+    border-radius: 22px; /* Adiciona bordas arredondadas */
+    
+    border: 5px #8fd8d2 solid;
+    
+    padding: 50px;
+    
+    flex: 1;
+    
+    margin: 10px;
+    
+    }
+    
+      
+    
+    .title {
+    
+    font-size: 1.8em;
+    
+    margin-bottom: 10%;
+    
+    }
+    
+      
+    
+    .input {
+    
+    min-width: 280px;
+    
+    border-radius: 22px;
+    
+    border: 2px #8fd8d2 solid;
+    
+    padding: 5px;
+    
+    margin: 0px 0px 12px -5px;
+    
+    }
+    
+      
+    
+    .input input {
+    
+    width: 100%;
+    
+    border: none;
+    
+    outline: none;
+    
+    transform: translateY(-10%);
+    
+    color: #2b344b;
+    
+    font-size: 11pt;
+    
+    }
+    
+      
+    
+    #btn, #btn-cadastro {
+    
+    background: #8fd8d2;
+    
+    margin-top: 10%;
+    
+    width: 100%;
+    
+    text-align: center;
+    
+    border-radius: 22px;
+    
+    overflow: hidden;
+    
+    }
+    
+      
+    
+    #btn button, #btn-cadastro button {
+    
+    background: #8fd8d2;
+    
+    width: 100%;
+    
+    height: 30px;
+    
+    border: none;
+    
+    border-radius: 22px;
+    
+    font-size: 1.2em;
+    
+    outline: none;
+    
+    cursor: pointer;
+    
+    }
+    
+      
+    
+    .imagem-login img{
+    
+    width: 500px;
+    
+    border-radius: 20px;
+    
+    }
